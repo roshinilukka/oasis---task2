@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #504099;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me, .projects, .contact {
+    margin: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* ... your existing styles ... */
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; /* Add padding to the buttons */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+nav a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* ... your existing styles ... */
+
+/* Add this to your styles.css file */
+.profile-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
